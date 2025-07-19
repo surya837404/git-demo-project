@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo "This is a push notification trigger from Azure DevOps!"
+  displayName: 'Send Notification'
